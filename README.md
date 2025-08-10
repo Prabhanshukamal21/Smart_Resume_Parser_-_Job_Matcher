@@ -1,15 +1,34 @@
 # Smart_Resume_Parser-Job_Matcher
 An Atomated system that automatically extracts key details from resumes (skills, experience, education) and matches candidates to the most relevant job openings based on their profile. Helps recruiters save time and improves hiring accuracy.
 
-## 🚀 Features
-- **Resume Parsing** – Extracts structured data such as name, contact info, education, skills, and work experience.
-- **Job Matching** – Uses AI algorithms to recommend the most suitable job openings.
-- **Multi-format Support** – Works with PDF, DOCX, and TXT resumes.
-- **Keyword & Skill Extraction** – Identifies technical and soft skills automatically.
-- **Search & Filter** – Find candidates based on job requirements update the json file.
+# Smart Resume Parser & Job Matcher (Streamlit Version)
 
-## 🛠️ Tech Stack
-- **Programming Language:** Python
-- **Libraries/Frameworks:** jason, fitz, re, streamlit
-- **Models:** all-MiniLM-L6-v2
-- **Frontend (Optional):** Streamlit
+An interactive Streamlit web app to:
+- Extract fields (name, email, skills) from resumes
+- Match skills to most relevant job roles using semantic similarity
+
+## 📦 How to Run
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+## 📁 Project Structure
+- `app.py`: Streamlit web interface
+- `parser/`: Logic for text extraction and role matching
+- `resumes/`: Store sample resumes
+- `roles/`: Contains job role descriptions in JSON
+
+## ✅ Demo Output
+```json
+{
+  "Name": "Ananya Sharma",
+  "Email": "ananya.sharma@gmail.com",
+  "Skills": ["Python", "PyTorch", "FastAPI"],
+  "Suggested Roles": [
+    {"title": "Machine Learning Engineer", "match_score": 91.2},
+    {"title": "Product Manager", "match_score": 78.5}
+  ]
+}
+```
+
