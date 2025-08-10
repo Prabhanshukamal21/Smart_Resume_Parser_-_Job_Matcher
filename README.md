@@ -22,13 +22,38 @@ streamlit run app.py
 ## ✅ Demo Output
 ```json
 {
-  "Name": "Ananya Sharma",
-  "Email": "ananya.sharma@gmail.com",
-  "Skills": ["Python", "PyTorch", "FastAPI"],
-  "Suggested Roles": [
-    {"title": "Machine Learning Engineer", "match_score": 91.2},
-    {"title": "Product Manager", "match_score": 78.5}
-  ]
+"Name":"Prabhanshukamal Ahirwar"
+"Email":"prabhanshu2108@gmail.com"
+"Phone":"+91 9691848220"
+"Skills":[
+0:"Languages and Databases: Python"
+1:"C++"
+2:"SQL"
+]
+"RawText":"Prabhanshukamal Ahirwar 
+                    
+ +91 9691848220           prabhanshu2108@gmail.com  
+https://github.com/Prabhanshukamal21 
+Technical Skills 
+ 
+Languages and Databases: Python, R, C/C++, SQL 
+Visualization Tools: Tableau, Power BI, Matplotlib, Seaborn 
+Other Skills: Advanced Excel, Business Analysis, Customer Acquisition  
+Frontend & Backend: HTML5, CSS3, javascript, ReactJs, Tailwind CSS, Bootstrap and Node js, Express 
+Frameworks: pandas, numpy, scikit-learn, matplotlib, seaborn, "
+"Suggested Roles":[
+0:{
+"title":"Machine Learning Engineer"
+"match_score":35.68
 }
-```
+1:{
+"title":"Web Developer"
+"match_score":20.9
+}
+2:{
+"title":"Project Manager"
+"match_score":14.8
+}
+]
+}
 
