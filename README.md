@@ -7,7 +7,18 @@ An interactive Streamlit web app to:
 
 ## 📦 How to Run
 ```bash
-pip install -r requirements.txt
+Create Environment
+python -m venv env
+
+Activate Environment
+.\env\Scripts\activate
+
+Install all the Required Dependencies
+-pip install streamlit
+-pip install fitz
+-pip install sentence-transformers
+
+Run...
 streamlit run app.py
 ```
 
