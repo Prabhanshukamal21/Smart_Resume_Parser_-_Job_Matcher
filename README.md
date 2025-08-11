@@ -6,6 +6,9 @@ An interactive Streamlit web app to:
 - Match skills to most relevant job roles using semantic similarity
 
 ## 📦 How to Run
+
+Create a static folder inside the project directory
+
 ```bash
 Create Environment
 python -m venv env
@@ -17,6 +20,8 @@ Install all the Required Dependencies
 -pip install streamlit
 -pip install fitz
 -pip install sentence-transformers
+-pip install frontend
+-pip install tools
 
 Run...
 streamlit run app.py
@@ -27,6 +32,7 @@ streamlit run app.py
 - `parser/`: Logic for text extraction and role matching
 - `resumes/`: Store sample resumes
 - `roles/`: Contains job role descriptions in JSON
+- `static/`: An empty folder
 
 ## ✅ Demo Output
 ```json
